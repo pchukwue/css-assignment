@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+   
+    <style>
+        body{
+            background-color: blue;
+        }
+        a{
+            color: white;
+            border-style: double;
+            border-width: 20px;
+        }
+        .heading{
+            text-align: center;
+            color: red;
+            background-color: darkslategray;
+        }
+        .flex-outer li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+     background-color: red;
+    color: white;
+
+    }
+
+.flex-outer{
+    background-color: lightblue;
+  }
+  .flex-outer li{
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .flex-inner{
+    align-items: center;
+    flex-wrap: wrap;
+  }
+    </style>
+   
+</head>
+<body>
+    <h1 class="heading">This is Our Contact Page</h1>
+    <br>
+
+    <form>
+
+        <ol class="flex-outer">
+    
+        <li>
+        <label for="first name">first name</label>
+        <input type="text" id="first name" placeholder="Enter your first name here">
+    </li>
+        
+    <li>
+        <label for="last name">last name</label>
+        <input type="text" id="last name" placeholder="Enter your last name here">
+    </li>
+        
+        <li>
+    
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="Enter your email here">
+    </li>
+    
+        
+    <li>
+        <label for="password">password</label>
+        <input required type="password" id="password" name="pwd" placeholder="Enter your password here">
+    </li>
+        
+    
+          
+        
+    <li>
+        <label for="phone">phone</label>
+        <input type="tel" id="phone" placeholder="Enter your phone here">
+    </li>
+    
+        
+        <li>
+            <label for="message">message</label>
+        <textarea name="" id="" cols="20" rows="10"></textarea>
+    </li>
+    <ol class="flex-inner">
+    
+    </ol>
+        
+    
+       <li>
+        <button>submit</button>
+    </li>
+    
+    </ol>
+</form>
+<br>
+
+
+    <a href="../index.html">Home</a>
+
+    
+    
+</body>
+</html>

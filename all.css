@@ -1,0 +1,42 @@
+p{
+    background-color: black;
+    color: white;
+    border-style: double;
+    border-width: 20px;
+    border-color: blueviolet;
+}
+.heading{
+    color: red;
+    background-color: aqua;
+
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+.flex-outer{
+    background-color: lightblue;
+  }
+
+  .flex-outer li button {
+    margin-left: auto;
+    padding: 8px 16px;
+    border: none;
+     background-color: red;
+    color: white;
+    
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+  }
+
+  ul{
+    color: brown;
+    background-color: aqua;
+  }
+
+
